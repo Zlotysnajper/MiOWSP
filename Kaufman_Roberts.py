@@ -1,6 +1,6 @@
 V = 3
 M = 2
-a = [0.4, 1]
+a = [2, 0.2]
 t = [1, 2]
 
 
@@ -50,6 +50,10 @@ def calc_b(V, P, t, i=1):
         sum += P[n]
     return sum
 
+
+print('M = ' + str(M))
+print('V = ' + str(V))
+print('a = ' + str(a))
 
 x = calc_x(V, M, a, t)
 calc_p0(x)
